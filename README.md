@@ -1,7 +1,7 @@
 # RayTracing
 
-RayTracing的Unity实现
+Path Tracing 的Unity实现
 
-1) 简单RayTracing
+![image](pic/RayTracing.png)
 
 Unity Version：2022.3.40f1c1

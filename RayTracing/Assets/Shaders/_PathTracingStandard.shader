@@ -145,7 +145,7 @@ Shader "_PathTracing/_Standard"
             void ClosestHitShader(inout RayPayload payload : SV_RayPayload, AttributeData attribs : SV_IntersectionAttributes){
             // 【判断反弹是否终止】
                 if(payload.bounceIndexOpaque == g_BounceCountOpaque){
-                    payload.bounceIndexOpaque = 0;
+                    payload.bounceIndexOpaque = -1;
                     return;
                 }
                 
